@@ -1,0 +1,33 @@
+.item {
+    /* display: block; */
+    padding: 10px 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: #cfcfcf;
+    border-bottom-style: solid;
+    overflow: auto;
+}
+
+.item * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item-content {
+    width: 80%;
+    word-break: break-all;
+}
+
+.item button {
+    float: right;
+    color: #ffffff;
+    background: #D32F2F;
+    width: 15%
+}
+
+.item button:hover {
+    background: rgb(173, 39, 39);
+}
+
+.completed {
+    text-decoration-line: line-through;
+}

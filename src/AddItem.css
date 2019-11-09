@@ -1,0 +1,23 @@
+.add-item-list {
+    display: block;
+    width: 100%;
+}
+
+.add-item-list * {
+    display: inline-block;
+}
+
+.add-item-list input[type=text] {
+    width: 80%;
+}
+
+.add-item-list button {
+    width: 18%;
+    color: #ffffff;
+    background-color: #1c85c1;
+    float: right;
+}
+
+.add-item-list button:hover {
+    background-color: #0f5781;
+}
